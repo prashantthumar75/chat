@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
   <p align="center">
     <a href="https://justdjango.com/?utm_source=github&utm_medium=logo" target="_blank">
@@ -61,3 +62,6 @@ Please note this is a **demo project** of the concepts used in building a chat a
 
 </div>
 
+=======
+# chat
+>>>>>>> 40eda63bb23f61dd5adb65eae54a491d02d4eb79
