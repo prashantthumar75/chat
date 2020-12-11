@@ -1,5 +1,5 @@
 migrate(){
-    cd /home/ubuntu/api
+    cd /home/ubuntu/chat
     . /home/ubuntu/env/bin/activate
     python manage.py migrate --noinput > migrations.log.txt
 
