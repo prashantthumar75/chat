@@ -1,9 +1,9 @@
 version: 0.0
-os: linux
+os: windows
 files:
-  - source: /
-    destination: /home/ubuntu/chat
-
+  - source: \
+    destination: f:\python
+    
 hooks:
   AfterInstall:
     - location: /scripts/install_requirements.sh
