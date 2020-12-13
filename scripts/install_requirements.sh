@@ -1,7 +1,2 @@
-run()
-{
-    pip install -r requirements.txt > install_requirements.log.txt
-}
-
-# EXECUTE
-run
+cd ../
+ pip install -r requirements.txt > install_requirements.log.txt
