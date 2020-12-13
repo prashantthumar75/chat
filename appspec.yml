@@ -5,7 +5,7 @@ files:
     destination: C:\inetpub\wwwroot
 hooks:
   BeforeInstall:
-    - location: \before-install.bat
+    - location: \scripts\before-install.bat
       timeout: 900
   AfterInstall:
     - location: \scripts\install_requirements.sh
