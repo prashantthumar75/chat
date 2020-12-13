@@ -2,7 +2,7 @@ version: 0.0
 os: windows
 files:
   - source: \
-    destination: f:\python
+    destination: f:\Python\Api_new\chat
     
 hooks:
   AfterInstall:
