@@ -1,2 +1,2 @@
-cd F:\Python\Api_new\chat\
+cd ../..
  pip install -r requirements.txt > install_requirements.log.txt
