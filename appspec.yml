@@ -8,14 +8,14 @@ hooks:
     - location: \scripts\before-install.bat
       timeout: 900
   AfterInstall:
-    - location: \scripts\install_requirements.sh
+    - location: \scripts\install_requirements.bat
       timeout: 6000
       runas: root
   ApplicationStart:
-    - location: \scripts\collectstatic.sh
+    - location: \scripts\collectstatic.bat
       timeout: 3000
       runas: root
   ValidateService:
-    - location: \scripts\run_migrations.sh
+    - location: \scripts\run_migrations.bat
       timeout: 3000
       runas: root
