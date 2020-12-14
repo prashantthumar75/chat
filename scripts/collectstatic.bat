@@ -1,2 +1,2 @@
   cd F:\Python\Api_new\chat
-  python manage.py collectstatic --noinput > collectstatic.log.txt
+  echo python manage.py collectstatic --noinput > collectstatic.log.txt
