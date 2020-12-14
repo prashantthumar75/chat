@@ -105,12 +105,12 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.BasicAuthentication',
     ),
 }
-CORS_ORIGIN_WHITELIST = ('localhost:3000')
+# CORS_ORIGIN_WHITELIST = ('localhost:3000')
 ACCOUNT_EMAIL_REQUIRED = False
 ACCOUNT_AUTHENTICATION_METHOD = 'username'
 ACCOUNT_EMAIL_VERIFICATION = 'none'
 CSRF_COOKIE_NAME = "csrftoken"
 
-HOST_URL = 'https://justdjango-chat.herokuapp.com'
-if DEBUG:
-    HOST_URL = 'http://127.0.0.1:8000'
+# HOST_URL = 'https://justdjango-chat.herokuapp.com'
+# if DEBUG:
+#     HOST_URL = 'http://127.0.0.1:8000'
