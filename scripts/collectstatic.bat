@@ -1,2 +1,3 @@
 
-cd ../../ python manage.py collectstatic --noinput > collectstatic.log.txt
+cd ../../ 
+python manage.py collectstatic --noinput > collectstatic.log.txt
